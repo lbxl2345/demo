@@ -3,7 +3,7 @@ all:
 	$(CC) $(CFLAGS) -o demo demo.c $(LDFLAGS) -L. -ldemo
 
 clean:
-	$(RM) demo libdemo
+	$(RM) demo libdemo.so
 
 install:
 	install -d $(DESTDIR)/usr/bin
