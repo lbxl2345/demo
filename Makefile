@@ -1,4 +1,4 @@
-CFLAGS += -g -O2
+CFLAGS += -g -O3
 
 all: 
 	$(CC) $(CFLAGS) -o libdemo.so -fPIC libdemo.c $(LDFLAGS) -shared
